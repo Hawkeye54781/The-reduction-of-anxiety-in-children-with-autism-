@@ -1,0 +1,32 @@
+/* css*/
+
+.item .item-content h1
+{
+	font-weight: bolder;
+	float: left !important;
+	font-size: 1.5em;
+	padding-top: 1em;
+   
+	
+
+}
+
+.item .item-content #list-p
+{
+	text-align: right;
+	float: right;
+	/*padding-top: 1.8em;*/
+	font-size: 1em;
+	padding-top: 2em;
+
+}
+
+.item .item-content i
+{
+    float: right;
+    padding-top: 1.7em;
+}
+
+.item .item-content{
+    background-color: #ffffb3 !important;
+}

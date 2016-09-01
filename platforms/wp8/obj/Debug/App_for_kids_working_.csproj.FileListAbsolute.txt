@@ -1,0 +1,14 @@
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\Bin\Debug\Background.png
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\Bin\Debug\io.cordova.myappe2785d518e9f4f6ea03055878dd7a400.dll
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\Bin\Debug\io.cordova.myappe2785d518e9f4f6ea03055878dd7a400.pdb
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\obj\Debug\io.cordova.myappe2785d518e9f4f6ea03055878dd7a400.g.resources
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\obj\Debug\io.cordova.myappe2785d518e9f4f6ea03055878dd7a400.dll
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\obj\Debug\io.cordova.myappe2785d518e9f4f6ea03055878dd7a400.pdb
+C:\Users\calum_000\Documents\Visual Studio 2015\Projects\App_for_kids(working)\App_for_kids(working)\platforms\wp8\obj\Debug\XapCacheFile.xml
