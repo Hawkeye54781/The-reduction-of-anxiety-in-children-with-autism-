@@ -1,0 +1,127 @@
+<link rel="stylesheet" href="../css/style.css" />
+
+<ion-view ng-controller="ListCtrl">
+  <ion-content>
+      <div id="teachClasses" ng-repeat="item in classes track by $index">
+          <div class="row responsive-sm">
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass(item.name)">
+                      Add Class
+                  </button>
+              </div>
+              <!--<div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>-->
+          </div>
+        
+         <!-- <div class="row responsive-sm">
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+          </div>
+          <div class="row responsive-sm">
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+          </div>
+          <div class="row responsive-sm">
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+          </div>
+          <div class="row responsive-sm">
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+          </div>
+          <div class="row responsive-sm">
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show() ; setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+          </div>
+          <div class="row responsive-sm">
+              <div class="col-50 padding">
+                  <h1>{{item.name}}</h1>
+                  <button class="button button-light" ng-click="modal.show(); setClass({{item.name}})">
+                      Add Class
+                  </button>
+              </div>
+          </div>-->
+      </div>
+  </ion-content>
+
+    <script id="templates/modal.html" type="text/ng-template">
+        <ion-modal-view>
+            <ion-header-bar class="bar bar-header bar-positive">
+                <h1 class="title">Add a class</h1>
+                <button class="button button-clear button-primary" ng-click="modal.hide()">Cancel</button>
+            </ion-header-bar>
+            <ion-content class="padding">
+                <div class="list">
+                    <label class="item item-input">
+                        <span class="input-label">Room</span>
+                        <input ng-model="newClass.setRoom" type="text">
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label">Date</span>
+                        <input ng-model="newClass.setDate" type="datetime-local">
+                    </label>
+                    <label class="item item-input">
+                        <span class="input-label">Info about class</span>
+                        <textarea ng-model="newClass.setInfo" type="text"></textarea>
+                    </label>
+                    <button class="button button-full button-positive" ng-click="createClass(newClass)">Create</button>
+                </div>
+            </ion-content>
+        </ion-modal-view>
+    </script>
+</ion-view>

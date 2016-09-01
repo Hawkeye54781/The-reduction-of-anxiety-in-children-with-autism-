@@ -1,0 +1,113 @@
+/* css*/
+
+.item .item-content h1
+{
+	font-weight: bolder;
+	text-align: center;
+	font-size: 1.5em;
+	/*padding-top: 1em;*/
+   
+	
+
+}
+
+.item .item-content h2
+{
+	text-align: right;
+	float: right !important;
+	font-size: 1em;
+    font-weight: bolder;
+    padding-top: 2em;
+	
+
+}
+
+.item .item-content i
+{
+    float: right;
+   padding-top: 1em; 
+}
+
+.item .item-content{
+    background-color: #B8D5C3 !important;
+}
+
+.col-50
+{
+    text-align:center;
+    background-color: #e1e8ed;
+    border: 1px solid #ffffb3;
+}
+
+.bar-stable{
+    background-color: #B8D5C3 !important;
+}
+
+#tabSubject{
+    background-color: #B8D5C3 !important;
+}
+
+#subject{
+    background-color: #B8D5C3 !important;
+    border: 1px solid #535353 !important;
+}
+
+#subject h1
+{
+     color: #535353 !important;
+}
+
+#subject #room
+{
+     color: #535353 !important;
+     float: right;
+}
+
+#subject #date
+{
+     color: #535353 !important;
+     float: left;
+}
+
+.tabs{
+    background-color: #B8D5C3 !important;
+}
+
+#infoButton
+{
+    background-color: #B8D5C3 !important;
+    float: none;
+    color: #535353 !important;
+    border: 1px solid #535353 !important;
+    padding: 5px;
+    width: 5em;
+}
+
+
+.ng-binding
+{
+    align-content: center;
+}
+
+.popup {
+    background-color: #B8D5C3 !important;
+}
+
+.popup-head
+{
+    border-bottom: 1px solid #535353 !important;
+}
+
+.popup-body
+{
+    text-align: center;
+}
+
+.popup .popup-buttons .button
+{
+    background-color: #B8D5C3 !important;
+    color: #535353;
+    border: 1px solid #535353 !important;
+}
+
+

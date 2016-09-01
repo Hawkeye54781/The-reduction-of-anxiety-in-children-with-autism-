@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="../css/style.css" />
+
+
+<ion-view>
+    <ion-content ng-controller="ListCtrl">
+        <div id="tabSubject" ng-repeat="subject in student | orderBy:'date' track by $index" >
+            <div  class="row responsive-lg">
+                <div  id="subject" class="col-50 ">
+                    <h1>{{subject.name}}</h1>
+                    <h2 id="room">{{subject.room}}</h2>
+                    <button id="infoButton" class="button button-primary" ng-click="showAlert({{subject}})">Info</button>
+                    <h2 id="date">{{subject.date | date:"HH:mm"}}</h2>
+                    <!--<i class="icon ion-chevron-right icon-accessory"></i>-->
+                    <!--<ion-option-button class="button-assertive" ng-click="remove(class)">
+                Delete
+            </ion-option-button>-->
+                </div>
+               </div>
+            </div>
+    </ion-content>
+</ion-view>
+
+
